@@ -1,0 +1,106 @@
+body {
+  background-color: #f4d04e;
+  color: #121212;
+  font-family: 'Figtree', sans-serif;
+  box-sizing: border-box; }
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center; }
+
+.contenedor {
+  background-color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-height: 400px;
+  margin-top: 5%;
+  overflow: hidden;
+  border-right: 15px solid #000;
+  border-bottom: 10px solid #000;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 25px; }
+
+.imagen {
+  width: 270px;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 5%; }
+
+.primera {
+  width: 100%;
+  background-size: 100%;
+  border-radius: 25px;
+  vertical-align: top; }
+
+.boton {
+  width: 25%;
+  border-radius: 5px;
+  background-color: #f4d04e;
+  display: inline-flex;
+  margin-top: 15px;
+  margin-left: 5%;
+  overflow: hidden;
+  padding: 3px 3px;
+  justify-content: center;
+  flex-wrap: nowrap; }
+
+.learning {
+  font-weight: 800;
+  width: 80%;
+  text-align: center;
+  color: #121212;
+  font-size: 14px;
+  text-decoration: none;
+  clear: both; }
+
+.publicado {
+  margin-left: 5%;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: gray; }
+
+.html {
+  font-size: 16px;
+  color: #121212;
+  font-weight: 800;
+  text-decoration: none;
+  margin-left: 5%; }
+
+.html:hover {
+  color: #f4d04e;
+  cursor: pointer; }
+
+.texto {
+  color: gray;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.avatar {
+  height: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 5%;
+  margin-bottom: 5px; }
+
+.autor {
+  color: #121212;
+  font-size: 10px;
+  font-weight: 800;
+  margin-left: 5%; }
+
+@media screen and (max-width: 500px) {
+  .contenedor {
+    height: 80%;
+    align-content: center; } }
+
+/*# sourceMappingURL=estilos.css.map */
